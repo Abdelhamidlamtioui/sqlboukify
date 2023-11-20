@@ -27,12 +27,8 @@ The database consists of several interconnected tables designed to store and man
    ```sql
    CREATE DATABASE bookify;
 Create Tables and Indexes:
-sql
-Copy code
 -- Add your SQL script for creating tables and indexes here
 Insert Sample Data:
-sql
-Copy code
 -- Add your SQL script for inserting sample data here
 Running Queries
 You can run various SQL queries against this database to fetch or manipulate reservation data.

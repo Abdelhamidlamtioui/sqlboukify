@@ -25,11 +25,16 @@ The database consists of several interconnected tables designed to store and man
 ### Setting Up the Database
 1. **Create the Database**: 
    ```sql
-   CREATE DATABASE bookify;
+   CREATE DATABASE bookify;```
 2. **Create Tables and Indexes**:
--- Add your SQL script for creating tables and indexes here
-2. **Insert Sample Data**:
--- Add your SQL script for inserting sample data here
+
+3. **Insert Sample Data**:
+   ```sql
+   INSERT INTO Employes (Nom, Email, Departement, Poste)
+   VALUES ('SALMA', 'SALMA12ont@hi.com', 'Media buyer', 'Manager'),
+   ('AMINE sami', 'AMINE56tin@huh.com', 'IT', 'Developeur'),
+   ('LAYLA amalo', 'claire.lefebvre@example.com', 'Management', 'Sales Representative');
+   ```
 Running Queries
 You can run various SQL queries against this database to fetch or manipulate reservation data.
 

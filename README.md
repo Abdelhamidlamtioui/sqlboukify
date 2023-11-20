@@ -27,8 +27,13 @@ The database consists of several interconnected tables designed to store and man
    ```sql
    CREATE DATABASE bookify;```
 2. **Create Tables and Indexes**:
-
-3. **Insert Sample Data**:
+   ```sql
+   CREATE TABLE salles (
+   Id SERIAL PRIMARY KEY,
+   Nom TEXT NOT NULL,
+   Capacite INT NOT NULL
+   );```
+4. **Insert Sample Data**:
    ```sql
    INSERT INTO Employes (Nom, Email, Departement, Poste)
    VALUES ('SALMA', 'SALMA12ont@hi.com', 'Media buyer', 'Manager'),

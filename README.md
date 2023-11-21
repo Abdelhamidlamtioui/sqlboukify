@@ -90,3 +90,5 @@ A detailed schema of the database is provided to help you understand the structu
 
 ## Authors
 - Abdelhamid - Initial work
+## JIRA
+- Link:https://aymane-bisdaoune.atlassian.net/jira/software/projects/S4/boards/1
